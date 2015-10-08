@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function(){
 		return (
-         <div className='well col-md-6'>
+         <div className='well'>
            {this.renderSitterProfile()}
          </div>
 		)

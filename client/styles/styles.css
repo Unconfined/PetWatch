@@ -13,16 +13,26 @@
   padding-left: 500px;
 }
 .well {
-  width: 100%;
+  width: 45%;
   margin-top: 25px;
-}
-.sitterPic, .petPic {
-  margin-bottom: 20px;
+  color: white;
+  float: left;
+  margin-left: 50px;
+  height: 410px;
+  border-radius: 5% !important;
+  border: 1px solid black !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 20px !important;
+  background-image: linear-gradient(to top,#FF1100 0,#B20C00 100%) !important;
 
 }
 .sitterPic, .petPic {
-  width: 200px;
-  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 5%;
+
+}
+.sitterPic, .petPic {
+  width: 220px;
+  height: 220px;
 }
 .ownerBar, .sitterThumbnail {
   margin-left: 5px;
@@ -30,7 +40,7 @@
 .ownerCaption, .sitterCaption{
   display: inline-block;
   margin: 10px;
-  position: relative;
+
 }
 .ownerButton {
 	display: inline-block;
