@@ -5,8 +5,10 @@
     margin: auto;
 }
 .navbar-default{
-background-image: linear-gradient(to bottom, #004D4d 0, #006767 100%) !important;
+background-image: linear-gradient(to bottom, #FF1100 0, #B20C00 100%) !important;
 border: 0px !important;
+height: 75px;
+box-shadow: 0px 0px 20px black !important;
 }
 .collapse .navbar-collapse{
 color: white !important;
@@ -54,12 +56,37 @@ color: white !important;
   border-radius: 10px !important;
   background-image: url('https://drscdn.500px.org/photo/123651921/m%3D1170/df22a8ece5cd275f8677de42ae09820a') !important;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  margin-top: 100px;
+  text-align: center;
+}
+.jumbotron > *{
+  padding: 20px;
 }
 .greet{
   color: aliceblue;
 }
 body{
-  background-color: #EEE !important;
+  background-color: #fff !important;
+}
+.navbar-collapse{
+  height: 100%;
+}
+#navbar a {
+  font-size: 1.25em;
+  color: white;
+  height: 100%;
+  padding-bottom: 25px;
+  padding-top: 30px;
+}
+#navbar a:hover{
+  color: red;
+  background-color: white;
+}
+a.navbar-brand{
+  margin-top: 15px;
+  color: white !important;
+  font-size: 3em;
+  font-weight: bold;
 }

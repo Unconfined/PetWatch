@@ -14,6 +14,7 @@
 }
 .well {
   width: 100%;
+  margin-top: 25px;
 }
 .sitterPic, .petPic {
   margin-bottom: 20px;
