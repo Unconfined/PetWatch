@@ -19,8 +19,8 @@ module.exports = React.createClass({
     return (
       <div className="container">
         <div className="row centered-form">
-          <div><img className="imageHolderOwner" src="http://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/62/6259.jpg" /></div>
-            <div className="panel panel-default owner-panel">
+          <div><img className="imageHolderOwner fade-in" src="http://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/62/6259.jpg" /></div>
+            <div className="panel panel-default owner-panel fade-in">
               <div className="panel-heading">
                 <h3 className="panel-title">Signup as an Owner!</h3>
               </div>

@@ -19,8 +19,8 @@ module.exports = React.createClass({
 			return (
       	<div>
 
-          <div className="jumbotron container-fluid">
-            <div className="greet">
+          <div className="jumbotron container-fluid fade-in">
+            <div className="greet fade-in2">
               <h2>Welcome to PetWatch</h2>
               <p>The most interactive site for your pet sitting needs!</p>
               <p>We have the most diverse group of sitters to hire
@@ -30,7 +30,7 @@ module.exports = React.createClass({
             </div>
           </div>
 
-          <div id="carousel-example-generic" className="carousel slide container-fluid" data-ride="carousel">
+          <div id="carousel-example-generic" className="carousel slide container-fluid fade-in" data-ride="carousel">
 
             <div className="carousel-inner" role="listbox">
               <div className="item active">

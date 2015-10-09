@@ -19,12 +19,12 @@ module.exports = React.createClass({
     return (
       <div className="container">
         <div className="row centered-form">
-          <div><img className="imageHolderSitter" src="https://www.petfinder.com/wp-content/uploads/2012/11/dog-how-to-select-your-new-best-friend-thinkstock99062463.jpg"/> </div>
-            <div className="panel panel-default">
+          <div><img className="imageHolderSitter fade-in" src="https://www.petfinder.com/wp-content/uploads/2012/11/dog-how-to-select-your-new-best-friend-thinkstock99062463.jpg"/> </div>
+            <div className="panel panel-default fade-in">
               <div className="panel-heading">
       			     <h3 className="panel-title">Signup as a Sitter!</h3>
       			 	</div>
-      			 	<div className="panel-body">
+      			 	<div className="panel-body fade-in">
       			     <form role="form">
       			        <div className="row">
 			    					  <div className="form-group">

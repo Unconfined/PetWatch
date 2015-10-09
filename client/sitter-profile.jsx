@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function(){
 		return (
-         <div className='well'>
+         <div className='well fade-in'>
            {this.renderSitterProfile()}
          </div>
 		)
@@ -13,7 +13,7 @@ module.exports = React.createClass({
     return (
       <div className='sitterThumbnail'>
         <img className='sitterPic' src={this.props.picURL}/>
-        <div className='sitterCaption'>
+        <div className='sitterCaption fade-in2'>
           <h4><b>{this.props.firstname} {this.props.lastname}</b></h4>
           <h6>{this.props.description}</h6>
           <h6><b>Address: </b>{this.props.address}</h6>
